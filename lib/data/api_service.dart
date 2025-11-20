@@ -1,10 +1,9 @@
 
-// import 'package:retrofit/retrofit.dart';
+import 'package:retrofit/retrofit.dart';
 
 // @RestApi(baseUrl: "https://jsonplaceholder.typicode.com")
-// abstract class ApiService {
-//   factory ApiService(Dio dio) = ApiService;
-//
-//   @GET("/users/{id}")
-//   Future<User> getUser(@Path("id") int id);
-// }
+abstract class GithubApiService {
+
+  // @GET("/users/{id}")
+  // Future<model> getUser(@Path("id") int id);
+}
