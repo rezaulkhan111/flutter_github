@@ -1,5 +1,3 @@
-import 'dart:collection';
-
 import 'package:dio/dio.dart';
 import 'api/github_api_service.dart';
 import 'model/repository_response_dto.dart';
@@ -9,7 +7,7 @@ class GitHubRepository {
 
   GitHubRepository() {
     final dio = Dio();
-  api = GitHubApiService(dio);
+    api = GitHubApiService(dio);
   }
 
   Future<RepositoryResponseDTO> searchRepo(Map<String, dynamic> query) {

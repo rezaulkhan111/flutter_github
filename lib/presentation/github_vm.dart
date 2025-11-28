@@ -1,5 +1,3 @@
-import 'dart:collection';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_github/data/github_repository.dart';
 import 'package:flutter_github/data/model/repository_response_dto.dart';
