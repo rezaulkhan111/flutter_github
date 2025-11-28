@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widget_previews.dart';
 import 'package:flutter_github/presentation/github_vm.dart';
 import 'package:provider/provider.dart';
 
+@Preview(name: "List Screen")
 class SearchScreen extends StatelessWidget {
   final TextEditingController controller = TextEditingController();
+
+  SearchScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
